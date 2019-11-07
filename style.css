@@ -1,0 +1,101 @@
+/* .container{
+    display: grid;
+    grid-gap:5px;
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+    grid-auto-rows: 75px;
+    grid-auto-flow: dense;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.horizontal{
+    grid-column: span 2;
+}
+.vertical{
+    grid-row: span 2;
+}
+.big{
+    grid-column: span 2;
+    grid-row : span 2 ;
+} */
+
+
+.container2{
+    display: flex;
+    background-color: rgb(194, 150, 150);
+    flex-wrap: wrap;
+}
+.container2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.container2 div {
+    flex : 1 1 250px;
+    filter: grayscale(90%);
+}
+.container2 div:hover{
+    filter: grayscale(0%);
+    transition: .4s ease-in-out ;
+}
+.container2 .big {
+    flex : 1 1 40%;
+}
+/*
+@media all and (max-width : 510px){
+    .container2{
+        flex-wrap: wrap;
+        
+    }
+    .container2 div{
+        flex: 1 1 100%;
+    }
+}*/
+/*
+.container3{
+    display: grid;
+    grid-gap:5px;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows : 40px auto 40px;
+}
+.item-01{
+    background-color: aqua;
+}
+.item-02{
+    background-color: rgb(77, 21, 150);
+}
+.item-03{
+    background-color: rgb(197, 186, 23);
+}
+.item-04{
+    background-color: rgb(236, 28, 28);
+}
+.item-05{
+    background-color: rgb(35, 179, 35);
+}
+.item-06{
+    background-color: rgb(187, 30, 108);
+} 
+
+.item-07{
+    background-color: rgb(35, 179, 35);
+}
+.item-08{
+    background-color: aqua;
+}
+
+.item-09{
+    background-color: rgb(197, 186, 23);
+}
+.item-10{
+    background-color: rgb(236, 28, 28);
+}
+.item-11{
+    background-color: rgb(77, 21, 150);
+}
+.item-12{
+    background-color: rgb(187, 30, 108);
+}*/
